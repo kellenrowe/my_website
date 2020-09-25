@@ -1,0 +1,462 @@
+@keyframes textfade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Gruppo", cursive;
+    background-color: whitesmoke;
+    animation: textfade 3s;
+    width: 100vw;
+  }
+header {
+  background: #fafbfa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  height: 90px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -20px;
+  background-color: #fafbfa;
+}
+
+header h1 {
+  color: rgb(160, 160, 160);
+  font-size: 35px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px 0px;
+}
+
+.kellen {
+  margin-bottom: 0px;
+}
+
+#name {
+  color: #2e3233;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: "Major Mono Display", monospace;
+}
+
+.menuLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+  
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  line-height: 28px;
+  width: 90%;
+  padding: 0 0 0 0;
+  
+}
+  
+nav a {
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+  font-size: small;
+
+}
+
+#design {
+  color: #272727;
+}
+
+.headingDiv {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#pageNav {
+  display: flex;
+}
+
+figcaption {
+  font-size: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  color: #272727;
+  text-align: center;
+}
+
+#section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fee9dd;
+    margin: 50px 0 0 0;
+    padding: 0 0 20px 0;
+   }
+  
+   #section6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  #section6B {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fee9dd;
+    width: 100vw;
+    padding: 5%;
+  }
+  
+  #section6C {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #114658;
+    width: 100vw;
+    padding: 5%;
+  }
+  
+  #aoaLogos {
+    width: 100%;
+    height: 337.5px;
+  }
+
+  #colorPalette {
+    width: 90%;
+    padding: 5% ;
+    background-color: #fee9dd;
+  }
+  
+  .pageEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 30px 0 30px 0;
+    margin: 0;
+  }
+  
+  .pageEnd2 {
+    width: 85%;
+    text-align: center;
+    color: #272727;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  #email {
+    margin: 0 0 10px 0;;
+  }
+  
+  #linkedIn {
+    text-decoration: none;
+    color: #272727;
+  }
+  
+  .images {
+    width: 20vw;
+    padding: 20px 0 20px 0;
+  }
+
+  .drawings {
+    padding-bottom: 30px;
+    width: 85%;
+  }
+
+  #sketch {
+    width: 100%;
+  }
+
+  .heroImage2 {
+    padding: 0px 0 50px 0;
+  }
+
+  .textDiv1 {
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 0px 0px 0px 0px;
+    
+  }
+  
+  .textDiv3 {
+    width: 100vw;
+    background-color: #fee9dd;
+  }
+  
+  .textDiv4 {
+    width: 90%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 0 0 0 0;
+  }
+  
+  .p2, .p3 {
+    width: 100%;
+    margin: 20px 0 0px 0;
+    text-align: justify;
+  }
+
+  .subHeaderA {
+    margin: 0 0 0 0;
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+    color: #272727;
+  }
+  
+  .subHeaderB {
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+    color: #272727;
+  }
+  
+  .subHeaderC {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 1000px) {
+      body {
+        margin: 0px;
+        font-family: "Gruppo", cursive;
+      }
+    
+      header {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100px;
+      }
+    
+      .container {
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      .kellen {
+        padding: 0px;
+        margin: 0;
+        height: 65px;
+        border: 1px solid rgb(161, 160, 160);
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      #name {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(161, 160, 160);
+        font-weight: 100;
+      }
+    
+      #name:hover {
+        color: rgb(119, 119, 119);
+      }
+  
+      .menu {
+        margin-left: 45%;
+        position: absolute;
+        width: fit-content;
+      }
+  
+      .menuLinks {
+        width: fit-content;
+      }
+    
+      nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 460px;
+        padding-left: 0px;
+      }
+    
+      nav a {
+        color: rgb(160, 160, 160);
+        padding: 0px;
+        text-decoration: none;
+        font-size: initial;
+      }
+    
+      nav li {
+        display: flex;
+        text-align: center;
+        padding-top: 0px;
+        position: relative;
+      }
+    
+      nav a:hover {
+        color: #2e3233;;
+      }
+    
+      nav li::before {
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: #2e3233;;
+        position: absolute;
+        top: 0%;
+        width: 0%;
+        transition: 200ms;
+      }
+    
+      nav li:hover::before {
+        width: 100%;
+        background-color:#2e3233;;
+        transition: ease-in-out 200ms;  
+      }
+
+      #logo {
+        width: 150px;
+        height: auto;
+        padding: 20px 20px 20px 20px;
+      }
+
+      #section5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fee9dd;
+        padding: 0 0 0 0;
+        margin: 0;
+      }
+  
+      #section6 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+      }
+  
+      #section6B {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #fee9dd;
+        width: 40vw;
+        padding: 5%;
+      }
+  
+      #section6C {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #114658;
+        width: 40vw;
+        padding: 5%;
+      }
+  
+      #aoaLogos {
+        width: 100%;
+        height: initial;
+      }
+
+      #colorPalette {
+        width: 50%;
+        padding: 5px;
+      }
+  
+      .pageEnd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 50px 0 50px 0;
+        margin: 0;
+      }
+  
+      .pageEnd2 {
+        width: 85%;
+        text-align: right;
+        color: #272727;
+        font-family: 'Quicksand', sans-serif;
+      }
+  
+      #linkedIn {
+        text-decoration: none;
+        color: #272727;
+      }
+  
+      #email {
+        text-align: right;
+      }
+
+      .textDiv1 {
+        width: 45%;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 30px;
+        letter-spacing: 1px;
+        padding: 0px 0px 20px 0px;
+      }
+  
+      .textDiv3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        padding: 30px 0 20px 0;
+        background-color: #fde9de;
+      }
+  
+      .p2 {
+        width: 100%;
+        margin: 20px 0 0px 0;
+      }
+  
+      .p2B {
+        width: 100%;
+        font-family: 'Heebo', sans-serif;
+        margin: 20px 0 20px 0;
+        color: #fafbfa;
+      }
+  
+      .subHeaderA {
+        margin: 0 0 0 0;
+        font-family: 'Heebo', sans-serif;
+        text-align: center;
+        color: #272727;
+      }
+  
+      .subHeaderB {
+        font-family: 'Heebo', sans-serif;
+        text-align: right;
+        color: #272727;
+      }
