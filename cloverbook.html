@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kellen Rowe | Design</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-166768901-1');
+    </script>
+
+    <link rel="stylesheet" href="cloverbook.css" />
+    
+    <!-- figure caption & Nav bar font -->
+    <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet"/>
+
+    <!-- name font -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <!--main page font for paragraphs-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!--font for sub headers-->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <h1 class="kellen">
+                <a id="name" href="https://www.kellen-rowe.com">kellen rowe</a>
+            </h1>
+            <nav class="menu">
+                <h3 class=menuLinks>
+                    <ul>
+                    <li><a href="https://www.kellen-rowe.com">Home</a></li>
+                    <!-- <li><a href="/about.html">About</a></li> -->
+                    <li><a id="design" href="/design.html">Design</a></li>
+                    <li><a href="/photography.html">Photography</a></li>
+                    <li><a href="/music.html">Music</a></li>
+                    </ul>
+                </h3>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- cloverbook Section -->
+    <div id="section1Clover">
+
+        <div class="heroImage">
+            <img src="heroImage.png" alt="" id="sketch">
+        </div>
+
+        <div class="textDiv1">
+            <h1 class="subHeaderA">About this Project</h1>
+
+                <p class="p2">  
+                San Fransisco startup Cloverbook provides software that helps event professionals (DJ's, Photographers, etc.) acquire, manage, and interact with their clients.
+                <br>
+                <br>
+                <b>Brief:</b> In May of 2020 I began working with Cloverbook to address accumulating user feedback and an opportunity for growth in one of the company's key performance indicators (KPIs) - Activation. Cloverbook considers a user activated after they create three events. 
+                <br>
+                <br>
+                <b>Team:</b> Umang Patel, Vivek Sainanee 
+                <br>
+                <br>
+                <b> My Role:</b> User Research, Style Guide Creation, Problem Identification & Solutions Development, Digital Product Design
+                <br>
+                <br>
+                <b> Tools Used:</b> Adobe XD, Illustrator, VS Code, Google Docs
+                </p>
+                
+        </div>  
+
+        <div class="textDiv1B">
+
+            <p class="p2"> Before my first meeting with the team I signed up for the free trial so I could walk through the site as a first time user. With a background in wedding photography and live performance, I was curious to see how the site felt to me - a 31 year old, tech-savvy, former event pro.<br><br>
+                
+            During my own user journey, I struggled to understand where the site wanted me to go and how it wanted me to get there. I felt unaccomplished, even after creating an event. <br><br>
+            </p>
+        </div>
+
+        <div class="textDiv2">
+            <h2 class="subHeaderB">User Research</h2>
+
+            <p class="p2">After communicating with the team about my experience, we decided to dive deeper into the initial experiences of our users via two methods; 1) user observation 2) data analysis. </p> <br>
+            
+            <h3 class="subHeaderC"><b>Research Goals</b></h3>
+
+            <ul class="p2" id="indent">
+                <li>Discover path to key drop off points after initial sign-up.</li> 
+                <li>Prioritize related aggregate user feedback.</li> 
+            </ul> <br>
+
+            <h3 class="subHeaderC"><b>Methodology - User Observation</b></h3>
+                <p class="p2">
+                    We identified 100 non-activated users to observe. All user observations took place via desktop. Because our goal was to understand the path to key drop off points, we cataloged the following information after new users would land on their home page; 
+                </p>
+            <ul class="p2" id="indent">    
+                <li>Which buttons were clicked first on each screen</li>
+                <li>Number of clicks that navigated back/home</li> 
+                <li>Which buttons were clicked multiple times</li> 
+                <li>Which buttons were not clicked.</li>
+                <li>From which screen drop off occurred.</li> 
+                <li>Elapsed time from login to drop off.</li> 
+            </ul> <br>
+
+            <h3 class="subHeaderC"><b>Methodology - Data Analysis</b></h3>
+                <p class="p2">
+                    To prioritize user feedback related to activation we used a matrix model to first categorize each submission. After categorizing feedback from over 900 submissions we focused on the green quadrant - procedural inquiries.
+                </p> <br>
+            <img src="infographic.png" alt="" id="infographic"><br>
+
+                <p class="p2">
+                    With all procedural inquiries isolated, we tallied and ranked each similar submission with the highest number of tallies being ranked number one. The green box below contains the topics users felt they needed help with. 
+                </p>
+
+            <img src="userfeedback.png" alt="" id="sketch"> 
+        </div>
+        
+        <div class="textDiv2">
+            <h2 class="subHeaderC">User Behavior</h2>
+            <p>57% of users dropped off within two minutes of first login. <br> 70% within five minutes. 
+            <!-- <br> 
+            17% of users dropped off between 5-10 minutes. <br> 12% were active for more than 20 minutes (25% of which were left inactive).  -->
+            <br><br> On average, users didn't complete an event creation until their third time on the event creation page. <br><br> Nearly all users navigated one click forward and one click back for their first four clicks. <br><br> 10% of users found the "New" button for document creation. <br> 0 users collaborated with a client, or created a new document. <br> 63% of users dropped off from the Event page. <br> 22% from the Home page, and the remainder from various pages. <br><br> 
+            </p>  
+
+            <img src="userjourney.png" alt="" id="sketch">
+            <figcaption> One user's journey from first login - drop off.</figcaption>
+            <br> <br> <br>
+            
+        </div>
+
+<!-- Problem 1 Start -->
+        <h1 class="subHeaderA">Problem Identification & Solutions</h1> 
+        <div class="textDiv3">
+            
+                <h3 class="p2B" id="redBox">- Problem 1 - </h3> 
+                <h3>Core functionality has low discoverability and multiple tools complete the same task.</h3>
+                    <p class="p2"> Measured user behavior shows initial confusion is the result of having multiple paths to the same destination. As the color-coded image below shows, new users land on a page where two thirds of the clickable options are duplicates. <br> <br>
+                    Additionally three of Cloverbook's key functionalities (Pipeline, Financials, and Lead Capture) are hidden inside dropdown menus and have extremely low discoverability.<br><br>
+                    </p>
+                
+        </div>
+
+        <div class="drawings">
+            <img src="global nav.png" alt="" id="sketch">
+        </div>
+
+        <div class="textDiv4">
+            <h3 class="p2B" id="greenBox">- Solution 1 - </h3>
+            <h3>Eliminate duplicates and minimize dropdown content.</h3>
+                <p class="p2"> To make the user's path to event creation less ambiguous we removed all duplicate buttons. We also grouped related tools closer together to allow for an associative understanding of functionality. This process  allowed us to bring Pipeline and Financials out into the global nav., increasing discoverability and user understanding of the software's capabilities. <br> <br>
+                Lastly, we added a notification badge to the Pipeline tool - cueing the user to see that Lead Capture is actively bringing in leads. <br><br>
+                </p>
+                    
+        </div>
+
+        <div class="drawings">
+            <img src="newHomePage.png" alt="" id="sketch">
+        </div>
+
+<!-- Problem 1 End -->
+
+<!-- Problem 2 Start -->
+        <div class="textDiv3">
+            <h3 class="p2B" id="redBox">- Problem 2 - </h3> 
+            <h3>Affordance of Workspaces is ambiguous and low discoverability discourages exploration and document creation. </h3>
+                <p class="p2"> Observed behavior overlaps several procedural inquiries showing new users aren't seeing or understanding the "New" button, the "Workspaces" button, and the relationship between the two. When users do discover the elements, they spend considerable time attempting to comprehend what each affords and how they work together. This consistently leads to tasks being left incomplete and in some cases unnecessarily restarted. 
+                <br><br>
+                </p>
+                
+        </div>
+    
+        <div class="drawings">
+            <img src="oldEventPage.png" alt="" id="sketch">
+        </div>
+
+        <div class="textDiv4">
+            <h3 class="p2B" id="greenBox">- Solution 2 - </h3>
+            <h3>Change the names of <i>Workspaces</i> and <i>New</i>. <br> Modify element mapping.</h3>
+                <p class="p2"> By changing the names to <i>Event Documents</i> & <i>New Document</i>, respectively, the conceptual model becomes  tangible to the user and the affordance of each is made clear. Moreover, bringing the <i>New Document</i> element into horizontal alignment with the <i>Event Documents</i> element increases discoverability. Lastly, to encourage element exploration, the interaction is changed to mouse-over instead of a click. 
+                <br>
+                <br>
+                </p>
+                    
+        </div>
+
+        <div class="drawings">
+            <img src="newEventsPage.png" alt="" id="sketch">
+        </div>
+<!-- Problem 2 End-->
+
+<!-- Problem 3 Start -->
+        <div class="textDiv3">
+            <h3 class="p2B" id="redBox">- Problem 3 - </h3> 
+            <h3>Users are confused about meaning and purpose of Event List. </h3>
+                <p class="p2"> After users create an event, a list is started on their home page. The list is color coded by booking status, however, under the status quo, no key is provided and very little information can be derived from the page. Furthermore, user observation shows many new users [due to a lack of feedback] click back into the event to verify their input saved correctly. <br><br>
+                </p>
+                
+        </div>
+    
+        <div class="drawings">
+            <img src="eventList.png" alt="" id="sketch">
+        </div>
+
+        <div class="textDiv4">
+            <h3 class="p2B" id="greenBox">- Solution 3 - </h3>
+            <h3>Bring event/contact info, and booking status tool into event list. <br> Color code booking status tool. </h3>
+                <p class="p2"> Bringing the event and contact information into the user's event list will provide instant feedback that their input has been saved while simultaneously affording rapid information recall and contact utilization. <br><br>
+                Additionally, with the booking status tool now color coded and built into the event list, users are provided with a key and the means to adjust the status from whichever page suits their needs. <br><br>
+                </p>
+                    
+        </div>
+
+        <div class="drawings">
+            <img src="newEventPage.png" alt="" id="sketch">
+        </div>
+<!-- Problem 3 End -->
+
+<!-- Problem 4 Start -->
+        <div class="textDiv3">
+            <h3 class="p2B" id="redBox">- Problem 4 - </h3> 
+            <h3>Weak signifiers and low discoverability for primary and secondary CTA's in document creation. </h3>
+                <p class="p2"> Under the status quo, when users create a document, there is document tool bar in the upper right hand section of the page. When users complete the document they are scrolled well below visible range of the toolbar. The result is that users are often unaware of how to share their documents or even that sharing is the next step. In best case scenarios the user scrolls back to the top of the page to share or utilize any tools. Furthermore, the current font color (#DEDEDF) is misleading and signifies that the tools are inaccessable.
+                <br><br>
+                </p>
+            
+        </div>
+    
+        <div class="drawings">
+            <img src="contractShare.png" alt="" id="sketch">
+        </div>
+
+        <div class="textDiv4">
+            <h3 class="p2B" id="greenBox">- Solution 4 - </h3>
+            <h3>Fix toolbar div, change primary CTA to standard Cloverbook button, and change font color of secondary CTA's.</h3>
+                <p class="p2"> Fixing the toolbar div will enable the user to see and utilize the CTA's at any point in their creation of a document. <br><br>
+                Changing the color of secondary CTA's to #323232 (which the style guide dictates) will signify that the tools are available for use. <br> <br>
+                Lastly, pulling "Share" (the primary CTA) out of the list and converting it to a standard Cloverbook button provides a cue for the user's attention and action.
+                <br>
+                <br>
+                </p>
+                    
+        </div>
+
+        <div class="drawings">
+            <img src="newContractShare.png" alt="" id="sketch">
+        </div>
+<!-- Problem 4 End -->
+
+<!-- Conclusion -->
+    <div id="section4CB">
+        <div class="textDiv1">
+            <h1 class="subHeaderA"> Conclusion </h1><br>
+        </div>
+
+            <div class="finalImage">
+                    <img src="3ScreenNew.png" alt="" id="sketch">
+                    <figcaption id="captionLeft">New UX for Cloverbook - Currently in Development</figcaption>
+                </div>
+                <br>
+
+        <div class="textDiv1">
+            <h3 class="subHeaderA">Meeting Research Goals</h3>
+                <p class="p2"> Measuring user behavior allowed us to identify pain points leading to drop off and create human centered solutions to mitigate the decrease in user activation.
+                Qualitative analysis of user emails enabled us to understand and address user needs in the aggregate. In these respects this project met the research goals and fullfilled the needs of Cloverbook users.
+                <br> <br>
+                </p>
+            <h3 class="subHeaderA">Challenges</h3>
+                <p class="p2"> Constraints on budget limited our ability to broaden the methodology of our research. With screen recordings and user feedback being the only tools at our disposal, it was challenging to identify root causes of user confusion with certitude. Quantitative data collection, cross analysis with user feedback, and a highly iterative process were paramount in the success of this collaborative project. 
+                <br> <br>
+                </p>
+                <h3 class="subHeaderA">Looking Forward</h3>
+                <p class="p2"> The solutions from this project are currenlty in development. Looking forward, Continued user observation would allow us to verify that our solutions solved the problems we identified [in the real world]. 
+                <br><br><br>
+                </p>
+                        
+        </div>
+    </div>
+<!-- Conclusion End -->
+
+    </div>
+        
+
+        <!-- End cloverbook section -->
+
+        <!-- Start Seattle Wine Co Section  -->
+
+        <!-- <div id="section1">
+        <div class="headingDiv">
+            <h1 class="projectTitle">Seattle Wine Co.</h1>
+            <img class="images" src="SWC_Clear.png" alt="SWC Logo" id="logo">
+        </div>
+
+        <div class="drawings">
+            <img src="PageFlow.jpg" alt="" id="sketch">
+            <figcaption id="captionLeft">Page Flow and Wireframe Sketch</figcaption>
+        </div>
+
+        <div class="textDiv1">
+            
+            <h2 class="subHeaderA">About this Project</h2>
+
+                <p class="p2">  
+                Local winery Seattle Wine Co. specializes in curating rare wine collections, wine education, and event catering.
+                <br>
+                <br>
+                <b>Brief:</b> Build a mobile friendly website in order to offer a convenient and modern experience for patrons, and increase online sales and service by 10% over the subsequent fiscal quarter. 
+                <br>
+                <br>
+                <b> My Role:</b> User Research, Mobile Website Design, Logo Design
+                <br>
+                <br>
+                <b> Tools Used:</b> Sketch, Adobe Illustrator & Photoshop
+                </p>
+        </div> 
+
+    
+        <div class="drawings">
+            <img src="layout.jpg" alt="" id="sketch">
+            <figcaption id="captionLeft">Product Display Sketch</figcaption>
+        </div>
+    </div>
+
+    <div id="section2">
+
+        <div class="textDiv2">
+            <h2 class="subHeaderA">Design Challenges</h2>
+
+            <p class="p2"> In the early stages of this project I realized the challenges that came with it were unique to my experience. For the first time I <i>wasn't</i> creating something from nothing, but rather, helping to recreate a new version of something already existing. In this case, the client wanted the new to resemble the old.
+            <br> 
+            <br> 
+            The existing platform was designed with desktop users in mind. As the following two images show, a strong sense of direction was needed, and the product display [when viewed on mobile devices] was difficult to follow. </p>
+
+            <h3 class="p2"><b>Perspective of Approach & Mobile Experience</b></h3>
+            <p class="p2">There was a major dichotomy in the perspectives I held for this project - to satisfy the client and curate a positive user experience: I needed to draw inspiration from the old to create the new while ensuring the redesign was fresh, informative, and responsive.  </p>
+        </div>
+        
+    </div>
+
+    <div id="section3">
+        <div id="section3B">
+
+            <img src="SW_old_1.png" alt="" class="oldScreenShots">
+            <img src="SW_old_2.png" alt="" class="oldScreenShots">
+            
+        </div>
+    </div>
+
+
+    <div id="section2">
+
+        <div class="textDiv3">
+            <h2 class="subHeaderB">Design Solutions</h2>
+
+            <p class="p3"> To tackle the challenges put forth, I first conducted user research to find out how users choose their wine. With a Stratified Random sample of 103 people, I used a consumer survey and learned that appearance of the label is paramount in making ones selection. Price was found to be the second consideration. In light of these findings, I created a product display which first draws attention to the bottle with an image that, when clicked, zooms in - fitting the label to the screen. I also created a pricing display which draws attention to the deal by placing fine print under a bolded red font. 
+            <br> 
+            <br> 
+            To align with the desire of the client and draw inspiration from the original site, I implemented the deep red color and classic font, from the original site, in several of the section headers. These small details tied the old layout into the new and gave a sense of familiarity. </p>
+
+        </div>
+        
+    </div>
+
+     <div id="section4">
+            
+        <div id="section4B">
+            <img src="SW_new1.png" alt="" class="newScreenShots">
+            <img src="SW_menu_2.png" alt="" class="newScreenShots">
+            <img src="SW_new_3.png" alt="" class="newScreenShots">
+            <img src="SW_new4.png" alt="" class="newScreenShots">
+        </div>
+    </div> -->
+
+    <!-- End Seattle Wine Co -->
+    <!-- -->
+    <!-- -->
+    <!-- -->
+
+    <div class="pageEnd">
+
+        <div class="pageEnd2">
+            <p id="email">kellenrowe@gmail.com</p>
+        </div>
+
+        <div class="pageEnd2">
+            <a href="https://www.linkedin.com/in/kellen-rowe/" id="linkedIn">LinkedIn</a>
+        </div>
+        
+        
+    </div>
