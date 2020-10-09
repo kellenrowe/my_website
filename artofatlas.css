@@ -234,7 +234,6 @@ header {
 .container {
   width: 80%;
   margin: 0px auto;
-  align-items: center;
 }
 
 .kellen {
@@ -250,7 +249,6 @@ header {
 #name {
   text-decoration: none;
   color: rgb(161, 160, 160);
-  font-weight: 100;
 }
 
 #name:hover {
@@ -312,41 +310,21 @@ nav li:hover::before {
   margin: 0;
 }
 
-#section6 {
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-}
-
 #section6B {
-  justify-content: center;
-  background-color: #fee9dd;
   width: 40vw;
-  padding: 5%;
 }
 
 #section6C {
-  justify-content: center;
-  background-color: #114658;
   width: 40vw;
-  padding: 5%;
 }
 
 #aoaLogos {
-  width: 100%;
   height: initial;
 }
 
 #colorPalette {
   width: 50%;
   padding: 5px;
-}
-
-.pageEnd {
-  background-color: whitesmoke;
-  padding: 50px 0 50px 0;
-  margin: 0;
 }
 
 .pageEnd2 {

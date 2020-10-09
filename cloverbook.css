@@ -298,9 +298,7 @@ figcaption {
 
 header {
   padding: 0;
-  display: flex;
   flex-direction: row;
-  align-items: center;
   height: 100px;
 }
 
@@ -329,7 +327,6 @@ header {
   justify-content: center;
   text-decoration: none;
   color: rgb(161, 160, 160);
-  font-weight: 100;
 }
 
 #name:hover {
@@ -393,15 +390,6 @@ nav li:hover::before {
   width: 150px;
   height: auto;
   padding: 5px 20px 20px 20px;
-}
-
-#section1Clover {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fafbfa;
-  width: inherit;
-  margin: 0 0 0 0;
 }
 
 #section4CB {
