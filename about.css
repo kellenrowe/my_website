@@ -1,0 +1,309 @@
+
+
+body {
+    margin: 0;
+    font-family: "Gruppo", cursive;
+  }
+
+  header {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px;
+    height: 100px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -20px;
+  }
+  
+  header h1 {
+    color: rgb(160, 160, 160);
+    font-size: 35px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+    margin-bottom: 0;
+  }
+  
+  #name {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: "Major Mono Display", monospace;
+    color: #2e3233;
+  }
+
+  .menuLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0px;
+    background-color: whitesmoke;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    line-height: 38px;
+    width: 90%;
+    margin: 16px 0 16px 0;
+  }
+  
+  nav a {
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    font-size: small;
+  }
+
+  #about {
+    color: #272727;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    
+  }
+
+  #heroImage {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+
+  #intro {
+    background-color: whitesmoke;
+    padding-top: 30px;
+  }
+
+  #about1 {
+    width: 90%;
+    text-align: center;
+    margin: 20px 0 0 5%;
+    font-family: 'Heebo', sans-serif;
+    color: #272727;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  #about2{
+    padding-top: 0px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  #about3{
+    padding-top: 0px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #pic {
+    width: 300px;
+  }
+
+  #div1 {
+    background-color: whitesmoke;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: 12px;
+    text-transform: initial;
+    
+  }
+
+  @media screen and (min-width: 401px) {
+    body {
+      margin: 0px;
+      font-family: "Gruppo", cursive;
+      background-color: whitesmoke;
+    }
+  
+    header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100px;
+      padding: 0;
+    }
+  
+    .container {
+      width: 80%;
+      margin: 0px auto;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .kellen {
+      padding: 0;
+      margin: 0;
+      height: 65px;
+      border-top: 1px solid rgb(161, 160, 160);
+      border-bottom: 1px solid rgb(161, 160, 160);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #name {
+      text-decoration: none;
+      color: rgb(161, 160, 160);
+    }
+  
+    #name:hover {
+      color: rgb(119, 119, 119);
+    }
+
+    .menu {
+      margin-left: 45%;
+      position: absolute;
+      width: fit-content;
+    }
+  
+    .menuLinks {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: fit-content;
+      margin: 0px;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 460px;
+      padding-left: 0px;
+    }
+  
+    nav a {
+      color: rgb(160, 160, 160);
+      padding: 0;
+      font-size: initial;
+      text-decoration: none;
+    }
+  
+    nav li {
+      display: flex;
+      text-align: center;
+      padding-top: 0px;
+      position: relative;
+      
+    }
+  
+    nav a:hover {
+      color: #2e3233;;
+    }
+  
+    nav li::before {
+      content: "";
+      display: block;
+      height: 2px;
+      background-color: #2e3233;;
+      position: absolute;
+      top: 0%;
+      width: 0%;
+      transition: 200ms;
+    }
+  
+    nav li:hover::before {
+      width: 100%;
+      background-color:#2e3233;;
+      transition: ease-in-out 200ms;
+    }
+
+    #heroImage {
+      margin: 0 0 0 0;
+    }
+
+    #intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 0;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: whitesmoke;
+      }
+
+      figure {
+        width: 50%;
+      }
+    
+      #about1{
+        padding-top: 50px;
+        width: 60%;
+        margin: 0px;
+        text-align: center;
+        font-family: 'Heebo', sans-serif;
+        line-height: 40px;
+        
+      }
+    
+      #about2{
+        padding: 20px 0 0 0;
+        border-top: 1px solid #272727;
+        width: 50%;
+        margin: 0 0 30px 0;
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+
+      #pic {
+        width: 100%;
+      }
+    
+      .caption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 600px;
+        text-align: center;
+        line-height: 30px;
+        color: rgb(20, 37, 43);
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      figure {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      figcaption {
+        text-align: right;
+        font-size: 12px;
+        text-transform: initial;
+        width: 80%;
+        margin: 0 10% 0 10%;
+      }
