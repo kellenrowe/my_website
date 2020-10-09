@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+  font-family: "Gruppo", cursive;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -20px;
+  
+}
+
+header h1 {
+  color: rgb(160, 160, 160);
+  font-size: 35px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px 0px;
+  margin-bottom: 0;
+  
+}
+
+#name {
+  text-decoration: none;
+  font-weight: 100;
+  font-family: "Major Mono Display", monospace;
+  color: #2e3233;
+}
+
+.menuLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin: 0px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  line-height: 38px;
+  width: 90%;
+  margin: 16px 0 16px 0;
+}
+
+nav a {
+  color: rgb(146, 146, 146);
+  text-decoration: none;
+  font-size: small;
+}
+
+#photography {
+  color: #272727;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 224, 224);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 60vw;
+  margin: 30px 0 0 20vw;
+  padding: 0 0 10px 0;
+  font-family: 'Heebo', sans-serif;
+  color: rgb(78, 78, 78);
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.grounded {
+  color: rgb(78, 78, 78);
+  border-bottom: 1px solid rgb(214, 214, 214);
+  padding-bottom: 40px;
+  visibility: hidden;
+  display: none;
+}
+
+#leftcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 0;
+  
+}
+
+#rightcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vw;
+}
+
+figure a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picsize {
+  width: 95vw;
+}
+
+.picsizeB {
+  width: 95vw;
+}
+
+.picsizeC {
+  width: 95vw;
+}
+
+.preface {
+  width: 70%;
+  margin: 25px 0 0 15%;
+  text-align: center;
+}
+
+.prefaceBlack {
+  visibility: hidden;
+  display: none;
+}
+
+.piccaption {
+  text-transform: initial;
+  width: 80vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  margin: 10px 0 0 0;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .body {
+    border: 0px solid rgb(214, 214, 214);
+  }
+
+  header {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .kellen {
+    padding: 0;
+    margin: 0;
+    height: 65px;
+    border-top: 1px solid rgb(161, 160, 160);
+    border-bottom: 1px solid rgb(161, 160, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #name {
+    color: rgb(161, 160, 160);
+  }
+
+  #name:hover {
+    color: rgb(119, 119, 119);
+  }
+
+  .menu {
+    margin-left: 45%;
+    position: absolute;
+    width: fit-content;
+  }
+
+  .menuLinks {
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 0px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 460px;
+    padding-left: 0px;
+  }
+
+  nav a {
+    color: rgb(160, 160, 160);
+    padding: 0px;
+    font-size: initial;
+    
+  }
+
+  nav li {
+    display: flex;
+    text-align: center;
+    padding: 0 0 0 0;
+    position: relative;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #2e3233;;
+  }
+
+  nav li::before {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #2e3233;;
+    position: absolute;
+    top: 0%;
+    width: 0%;
+    transition: 200ms;
+  }
+
+  nav li:hover::before {
+    width: 100%;
+    background-color:#2e3233;;
+    transition: ease-in-out 200ms;
+    
+  }
+
+  .title {
+      justify-content: center;
+      margin: 35px 0 35px 0;
+      width: 100vw;
+      border: none;
+  }
+
+  #mainsection {
+      display: flex;
+      flex-direction: row;
+  }
+
+  #leftcolumn {
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 3% 10% 0 10%;
+      width: 320px;
+      background-color: rgb(22, 22, 22); 
+  }
+
+  .grounded {
+    width: fit-content;
+    color: rgb(121, 121, 121);
+    border-bottom: 1px solid rgb(158, 158, 158);
+    margin-bottom: 40px;
+    font-family: 'Heebo', sans-serif;
+    visibility: visible;
+    display: unset;
+  }
+
+  .preface {
+    width: 250px;
+    margin: 80px 0 0 0;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(143, 143, 143);
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+
+  .prefaceBlack {
+    visibility: visible;
+    display: unset;
+    width: 250px;
+    margin: 80px 0 0 0;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: rgb(22, 22, 22);
+  }
+
+  #rightcolumn {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .picsize {
+    width: 85%;
+  }
+
+  .picsizeB {
+    width: 90%;
+  }
+
+  .picsizeC {
+    width: 95%;
+  }
+
+  .piccaption {
+    width: 70%;
+    margin: 0;
+    margin-top: 5px;
+    font-size: small;
+  }
+
+  img {
+    transition:transform 0.25s ease;
+  }
+
+  img:hover {
+    -webkit-transform:scale(1.05);
+  }
+
+  .figures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin: 0 0 30px 0;
+  }
+
+  .figuresB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 0 30px 0;
+  }
+
+  .figuresC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  #readMore {
+    color: rgb(175, 175, 175);
+  }
+
+  #stickyDiv {
+    padding-top: 30px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    padding-top: 3%;
+  }

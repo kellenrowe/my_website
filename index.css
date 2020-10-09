@@ -1,0 +1,303 @@
+@keyframes textfade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Gruppo", cursive;
+  background-color: whitesmoke;
+  animation: textfade 3s;
+  width: 100vw;
+}
+header {
+  background: whitesmoke;
+  height: 130px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+header h1 {
+  color: rgb(148, 147, 147);
+  font-size: 35px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px 0px;
+}
+
+.kellen {
+  color: #2e3233;
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-family: "Major Mono Display", monospace;
+}
+
+.menuLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin: 0px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+  line-height: 38px;
+  width: 90%;
+  font-size: small;
+}
+
+nav a {
+  color: rgb(146, 146, 146);
+}
+
+#home {
+  color: #272727;
+}
+
+.first-section {
+  width: 100vw;
+  margin: 20px 0 0 0;
+}
+
+#section2 {
+  visibility: hidden;
+  display: none;
+}
+
+#image {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 100vw;
+  height: 500px;
+}
+
+#intro {
+  background-color: whitesmoke;
+  padding-top: 30px;
+}
+
+#div1 {
+  background-color: #272727;
+}
+
+#blank {
+  visibility: hidden;
+  display: none;
+}
+
+#fixed {
+  visibility: hidden;
+  display: none;
+}
+
+#infoBody {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #272727;
+}
+
+.rightColumn {
+  width: 86%;
+  margin: 0 0 0 7%;
+}
+
+#about1{
+  padding: 50px 0 20px 0;
+  width: 50%;
+  margin: 0px;
+  color: #dbdbdb;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  line-height: 40px;
+}
+
+#about2{
+  padding: 20px 0 0 0;
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+  color: #dbdbdb;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.labels {
+  color: #929292;
+}
+
+#links {
+  text-decoration: none;
+  color: #dbdbdb;
+  cursor: pointer;
+  line-height: 25px;
+}
+
+.pageEnd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #272727;
+  padding: 50px 0 50px 0;
+  margin: 0 0 0 7%;
+}
+
+.pageEnd2 {
+  width: 85%;
+  text-align: left;
+  color: #dbdbdb;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+@media screen and (min-width: 1000px) {
+
+  @keyframes textfade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
+  height: 100px;
+  justify-content: flex-start;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.kellen {
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+  width: fit-content;
+  align-items: center;
+  padding: 0px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 0px;
+}
+
+.menu {
+  margin-left: 45%;
+  position: absolute;
+  width: fit-content;
+}
+
+.menuLinks {
+  width: fit-content;
+  margin: 0px;
+}
+
+nav ul {
+  align-items: flex-start;
+  width: 460px;
+  padding-left: 0px;
+}
+
+nav a {
+  color: rgb(160, 160, 160);
+  padding: 0px;
+  font-size: initial;
+}
+
+nav li {
+  display: flex;
+  text-align: center;
+  padding: 0 0 0 0;
+  position: relative;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #2e3233;;
+}
+
+nav li::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #2e3233;;
+  position: absolute;
+  top: 0%;
+  width: 0%;
+  transition: 200ms;
+}
+
+nav li:hover::before {
+  width: 100%;
+  background-color:#2e3233;;
+  transition: ease-in-out 200ms;
+}
+
+.first-section {
+  margin: 0;
+}
+
+#section2 {
+  visibility: visible;
+  display: unset;
+  width: 25%;
+  background-color: rgb(77, 77, 77);
+}
+
+#image {
+  object-position: 0 0;
+  height: initial;
+}
+
+
+#infoBody {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px  25px 25px 25px;
+}
+
+#section2-pic {
+  width: 100%;
+  margin: 150px 0 0 25%;
+}
+
+.rightColumn {
+  width: 50%;
+  margin: 0 0 0 12%;
+}
+
+#about1{
+  padding: 75px 0 20px 0;
+}
+
+.pageEnd {
+  margin: 0 0 0 12%;
+}
