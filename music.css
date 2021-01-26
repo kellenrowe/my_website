@@ -7,103 +7,93 @@
     }
   }
   
-  body {
-    margin: 0;
-    font-family: "Gruppo", cursive;
-    background-color: whitesmoke;
-    animation: textfade 3s;
-    width: 100vw;
-  }
-  header {
-    background: whitesmoke;
-    height: 130px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-  
-  header h1 {
-    color: rgb(148, 147, 147);
-    font-size: 35px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    padding: 10px 0px;
-  }
-  
-  .kellen {
-    color: #2e3233;
-    text-decoration: none;
-    font-weight: 400;
-    margin-bottom: 0px;
-    font-family: "Major Mono Display", monospace;
-  }
-  
-  .menuLinks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    margin: 0px;
-  }
-  
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0;
-    list-style: none;
-    line-height: 38px;
-    width: 90%;
-    font-size: small;
-  }
-  
+body {
+  margin: 0;
+  font-family: "Gruppo", cursive !important;
+  background-color: whitesmoke !important;
+  animation: textfade 3s;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: whitesmoke !important;
+}
+
+.container {
+  margin: 10px 0 10px 0;
+}
+
+nav ul {
+  line-height: 28px;
+  padding: 20px 0 0 0;
+}
+
 nav a {
-    color: rgb(146, 146, 146);
+  color: rgb(146, 146, 146) !important;
+  text-decoration: none;
+  font-size: medium;
+}
+
+#name {
+  color: #2e3233 !important;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: "Major Mono Display", monospace;
+  border-top: 1px solid #2e3233;
+  border-bottom: 1px solid #2e3233;
+  padding: 10px 0 10px 0;
+  margin: 0 0 0 12px;
+}
+
+#active {
+  color: #272727 !important;
+  font-weight: bolder;
+}
+
+button.navbar-toggler {
+  outline: none !important;
+  border: none !important;
 }
   
 #music {
-    color: #272727;
+  color: #272727;
 }
 
 .videosDiv {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 95%;
-    margin: 30px 0 30px 2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 95%;
+  margin: 30px 0 30px 2.5%;
 }
 
-
 .videoDiv {
-    width: 95%;
-    margin: 0 5px 40px 5px;
+  width: 95%;
+  margin: 0 5px 40px 5px;
 }
 
 .video {
-    height: 200px;
+  height: 200px;
 }
 
 @media screen and (min-width: 500px) {
+
+.name {
+  margin: 0;
+}
    
 .videosDiv {
-    width: 90%;
-    margin: 30px 0 30px 5%;
+  width: 90%;
+  margin: 30px 0 30px 5%;
 }
 
 .videoDiv {
-    width: 500px;
-    margin: 0 0 40px 0;
+  width: 500px;
+  margin: 0 0 40px 0;
 }
 .video {
-    height: 280px;
+  height: 280px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -117,96 +107,44 @@ nav a {
     }
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    flex-direction: row;
-    height: 100px;
-    justify-content: flex-start;
+nav a:hover {
+  color: #2e3233 !important;
 }
-
-header {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
-
-.kellen {
-    display: flex;
-    flex-direction: row;
-    height: 65px;
-    width: fit-content;
-    align-items: center;
-    padding: 0px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    margin: 0px;
-}
-
-.menu {
-    margin-left: 45%;
-    position: absolute;
-    width: fit-content;
-}
-
-.menuLinks {
-    flex-direction: row;
-    width: fit-content;
+  
+#name:hover {
+  color: rgb(146, 146, 146) !important;
 }
 
 nav ul {
-    align-items: flex-start;
-    width: 460px;
-    padding-left: 0px;
-}
-
-nav a {
-    color: rgb(160, 160, 160);
-    padding: 0px;
-    font-size: initial;
-}
-
-nav li {
-    display: flex;
-    text-align: center;
-    padding: 0 0 0 0;
-    position: relative;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #2e3233;;
+  padding: 0;
 }
 
 nav li::before {
-    content: "";
-    display: block;
-    height: 2px;
-    background-color: #2e3233;;
-    position: absolute;
-    top: 0%;
-    width: 0%;
-    transition: 200ms;
+  content: "";
+  display: grid;
+  height: 2px;
+  background-color: #2e3233;
+  top: 0%;
+  width: 0%;
+  transition: 200ms;
 }
 
 nav li:hover::before {
-    width: 100%;
-    background-color:#2e3233;;
-    transition: ease-in-out 200ms;
+  width: 100%;
+  background-color:#2e3233;;
+  transition: ease-in-out 200ms;
 }
 
 .videosDiv {
-    margin: 60px 3% 30px 3%;
+  width: 80%;
+  margin: 60px 10% 30px 10%;
 }
 
 .videoDiv {
-    width: 40%;
-    margin: 0 5px 40px 5px;
+  width: 40%;
+  margin: 0 5px 40px 5px;
 }
 
 .video {
-    width: 100%;
+  width: 100%;
 }

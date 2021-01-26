@@ -1,83 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kellen Rowe | Design</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-166768901-1');
+      gtag("config", "UA-166768901-1");
     </script>
 
     <link rel="stylesheet" href="design.css" />
-    
+
     <!-- figure caption & Nav bar font -->
-    <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Gruppo"
+      rel="stylesheet"
+    />
 
     <!-- name font -->
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
 
     <!--main page font for paragraphs-->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
 
     <!--font for sub headers-->
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+    
+    <!-- jquery -->
+    <script src="https://unpkg.com/jquery"></script>
+    <script 
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
 
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            
-            <h1 class="kellen">
-                <a id="name" href="https://www.kellen-rowe.com">kellen rowe</a>
-            </h1>
-            <nav class="menu">
-                <h3 class=menuLinks>
-                    <ul>
-                    <li><a href="https://www.kellen-rowe.com">Home</a></li>
-                    <li><a id="design" href="/design.html">Design</a></li>
-                    <li><a href="/photography.html">Photography</a></li>
-                    <li><a href="/music.html">Music</a></li>
-                    </ul>
-                </h3>
-            </nav>
-
+          <a id="name" class="navbar-brand" href="https://www.kellen-rowe.com"
+            >kellen rowe</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="https://www.kellen-rowe.com"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a id="active" class="nav-link px-0" href="/design.html"
+                  >Design
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/photography.html"
+                  >Photography</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/music.html">Music</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
     </header>
+
     <div id="allLinks">
-        <div id="cbLink">
-            <a class="button" href="/cloverbook.html"><img src="cloverbookLink.png" width="100%" id="image"></a>
-            
-        </div>
-        <div id="cbLink">
-            <a class="button" href="/art-of-atlas.html"><img src="artOfAtlasLink.png" width="100%" id="image"></a>
-            
-        </div>
-        <div id="cbLink">
-            <a class="button" href=""><img src="askADentistLink.png" width="100%" id="image"></a>
-        </div>
-        <div id="cbLink">
-            <a class="button" href=""><img src="seattleWineCoLink.png" width="100%" id="image"></a>
-        </div>
+      <div id="cbLink">
+        <a class="button" href="/cloverbook.html"
+          ><img src="./imgs/cloverbookLink.png" width="100%" id="image"
+        /></a>
+      </div>
+      <div id="cbLink">
+        <a class="button" href="/artOfAtlas.html"
+          ><img src="./imgs/artOfAtlasLink.png" width="100%" id="image"
+        /></a>
+      </div>
+      <div id="cbLink">
+        <a class="button" href=""
+          ><img src="./imgs/askADentistLink.png" width="100%" id="image"
+        /></a>
+      </div>
+      <div id="cbLink">
+        <a class="button" href=""
+          ><img src="./imgs/seattleWineCoLink.png" width="100%" id="image"
+        /></a>
+      </div>
     </div>
-
-    <div class="pageEnd">
-
-        <div class="pageEnd2">
-            <p id="email">kellenrowe@gmail.com</p>
-        </div>
-
-        <div class="pageEnd2">
-            <a href="https://www.linkedin.com/in/kellen-rowe/" id="linkedIn">LinkedIn</a>
-        </div>
-        
-        
-    </div>
+  </body>
+</html>

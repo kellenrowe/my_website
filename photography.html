@@ -19,17 +19,17 @@
     <!-- sub headers font -->
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap" rel="stylesheet">
 
-    <!-- add bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" 
+    href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    
+    <!-- jquery -->
+    <script src="https://unpkg.com/jquery"></script>
+    <script 
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
 
-    <!-- add jquery / js / popper -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-    <!-- <STYLE>A {text-decoration: none;} </STYLE> -->
   </head>
   <body>
     <header>
@@ -74,7 +74,7 @@
           var currentScroll = $(window).scrollTop(); 
           // apply position: fixed if you
           if (currentScroll >= fixmeTop) {           
-            $('#stickyDiv').css({                      
+            $('#stickyDiv').css({                     
                 position: 'fixed',
                 top: '0',
             });
@@ -92,7 +92,7 @@
           <figure 
           class="figures col-11 col-sm-4 col-md-4 m-auto m-sm-0">
             <a href="thinking.JPG">
-              <img class="picsize" src="thinking.JPG" alt="Thinking Gorilla"/>
+              <img class="picsize" src="./imgs/thinking.JPG" alt="Thinking Gorilla"/>
             </a>
             <figcaption class="piccaption">
               Thinking Ape
@@ -101,7 +101,7 @@
   
           <figure class="figures col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="sadgorilla.jpg">
-              <img class="picsize" src="sadgorilla.jpg" alt="sadgorilla" />
+              <img class="picsize" src="./imgs/sadgorilla.jpg" alt="sadgorilla" />
               </a>
               <figcaption class="piccaption">
                 An adolescent male gorilla sits in the corner of his enclosure at
@@ -111,7 +111,7 @@
   
           <figure class="figures col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="berlin.jpg">
-              <img class="picsize" src="berlin.jpg" alt="berlin" />
+              <img class="picsize" src="./imgs/berlin.jpg" alt="berlin" />
               </a>
               <figcaption class="piccaption">
                 Berlin Fernsehturm - the tallest building in Germany, constructed
@@ -130,7 +130,7 @@
           <figure 
           class="figures col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="tallBuilding.JPG">
-              <img class="picsize" src="tallBuilding.JPG" alt="berlin" />
+              <img class="picsize" src="./imgs/tallBuilding.JPG" alt="berlin" />
               </a>
               <figcaption class="piccaption">
                 Looking up at Berlin Fernsehturm
@@ -139,7 +139,7 @@
   
           <figure class="figures col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="window.jpg">
-              <img class="picsize" src="window.jpg" alt="window" /></a>
+              <img class="picsize" src="./imgs/window.jpg" alt="window" /></a>
               <figcaption class="piccaption">
                 the window <br> 
                 <details>
@@ -163,7 +163,7 @@
   
           <figure class="figures col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="Cathedral.jpg">
-              <img class="picsize" src="Cathedral.jpg" alt="Cathedral" /></a>
+              <img class="picsize" src="./imgs/Cathedral.jpg" alt="Cathedral" /></a>
               <figcaption class="piccaption">CHVRCH3$</figcaption>
           </figure>
         </div>
@@ -172,7 +172,7 @@
           <figure 
           class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="iceland.jpg">
-              <img class="picsizeB" src="iceland.jpg" alt="iceland" /></a>
+              <img class="picsizeB" src="./imgs/iceland.jpg" alt="iceland" /></a>
               <figcaption class="piccaption">
                 An accidental, free 24 hours in Iceland. All of which were during
                 daylight. Here's a view from the stern.
@@ -180,7 +180,7 @@
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="iceland2.jpg">
-              <img class="picsizeB" src="iceland2.jpg" alt="iceland2" /></a>
+              <img class="picsizeB" src="./imgs/iceland2.jpg" alt="iceland2" /></a>
               <figcaption class="piccaption">
                 This ship sat - beached in front of my hotel, collecting rust
                 instead of barnacles.
@@ -188,7 +188,7 @@
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="boat.JPG">
-              <img class="picsizeB" src="boat.JPG" alt="iceland2" /></a>
+              <img class="picsizeB" src="./imgs/boat.JPG" alt="iceland2" /></a>
               <figcaption class="piccaption">
                 The Sun Voyager - Reykjavik, Iceland. An ode to the Sun. This massive sculpture by 
                 <details>
@@ -203,7 +203,7 @@
           <figure 
           class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="flower.jpg">
-              <img class="picsizeB" src="flower.jpg" alt="flower" /></a>
+              <img class="picsizeB" src="./imgs/flower.jpg" alt="flower" /></a>
               <figcaption class="piccaption">
                 > Eastern Europe <br> 
                 &nbsp > Germany <br> 
@@ -217,7 +217,7 @@
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="cpcharlie.JPG">
-              <img class="picsizeB" src="cpcharlie.JPG" alt="checkpoint_charlie" /></a>
+              <img class="picsizeB" src="./imgs/cpcharlie.JPG" alt="checkpoint_charlie" /></a>
               <figcaption class="piccaption">
                 Checkpoint C - AKA Checkpoint Charlie - was a crossing point
                 between East and West Berlin from the early 60's through
@@ -234,7 +234,7 @@
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="icecream.jpg">
-              <img class="picsizeB" src="icecream.jpg" alt="icecream" /></a>
+              <img class="picsizeB" src="./imgs/icecream.jpg" alt="icecream" /></a>
               <figcaption class="piccaption">
                 We all scream for ice-cream.
               </figcaption>
@@ -245,14 +245,14 @@
           <figure 
           class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="welder.JPG">
-              <img class="picsizeB" src="welder.JPG" alt="welder" /></a>
+              <img class="picsizeB" src="./imgs/welder.JPG" alt="welder" /></a>
               <figcaption class="piccaption">
                 Praha - 2019 - Work on the tram was underway 24/7.
               </figcaption>
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="lunch.JPG">
-              <img class="picsizeB" src="lunch.JPG" alt="lunch" /></a>
+              <img class="picsizeB" src="./imgs/lunch.JPG" alt="lunch" /></a>
               <figcaption class="piccaption">
                 Lunch break, just Northeast of Bad Schandou, in search of Bastei
                 Bridge.
@@ -260,7 +260,7 @@
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="A-B2.jpg">
-              <img class="picsizeB" src="A-B2.jpg" alt="A-B2" /></a>
+              <img class="picsizeB" src="./imgs/A-B2.jpg" alt="A-B2" /></a>
               <figcaption class="piccaption">
                 Auschwitz Birkenau 
                 <details>
@@ -276,21 +276,21 @@
           <figure 
           class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="A-B.jpg">
-              <img class="picsizeB" src="A-B.jpg" alt="A-B" /></a>
+              <img class="picsizeB" src="./imgs/A-B.jpg" alt="A-B" /></a>
               <figcaption class="piccaption">
                 The tracks into Auschwitz Birkenau - Poland
               </figcaption>
           </figure>
           <figure class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="plane.JPG">
-              <img class="picsizeC" src="plane.JPG" alt="plane" /></a>
+              <img class="picsizeC" src="./imgs/plane.JPG" alt="plane" /></a>
               <figcaption class="piccaption">
                   To be retired
               </figcaption>
           </figure>
           <figure class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="sop.jpg">
-              <img class="picsizeC" src="sop.jpg" alt="sop" /></a>
+              <img class="picsizeC" src="./imgs/sop.jpg" alt="sop" /></a>
               <figcaption class="piccaption">
                 Washington
               </figcaption>
@@ -301,14 +301,14 @@
           <figure 
           class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="homeless.jpg">
-              <img class="picsizeC" src="homeless.jpg" alt="The Man" /></a>
+              <img class="picsizeC" src="./imgs/homeless.jpg" alt="The Man" /></a>
               <figcaption class="piccaption">
                   Capitol Hill residential district in Seattle
               </figcaption>
           </figure>
          <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
             <a href="woman.JPG">
-              <img class="picsizeB" src="woman.JPG" alt="The Woman" /></a>
+              <img class="picsizeB" src="./imgs/woman.JPG" alt="The Woman" /></a>
               <figcaption class="piccaption">
                   Everyday she waits 
                   <details>
@@ -318,7 +318,7 @@
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="dock.JPG">
-              <img class="picsizeB" src="dock.JPG" alt="Dock" /></a>
+              <img class="picsizeB" src="./imgs/dock.JPG" alt="Dock" /></a>
               <figcaption class="piccaption">
                 Anacortes, Washington 
                 <details>
@@ -333,21 +333,21 @@
           <figure 
           class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="dancingGirl.jpg">
-              <img class="picsizeC" src="dancingGirl.jpg" alt="Dancing Girl" /></a>
+              <img class="picsizeC" src="./imgs/dancingGirl.jpg" alt="Dancing Girl" /></a>
               <figcaption class="piccaption">
                 Girl who dances for no reason at all.
               </figcaption>
           </figure>
           <figure class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="theBoy.JPG">
-              <img class="picsizeC" src="theBoy.JPG" alt="The Boy" /></a>
+              <img class="picsizeC" src="./imgs/theBoy.JPG" alt="The Boy" /></a>
               <figcaption class="piccaption">
                 Boy at piano
               </figcaption>
           </figure>
           <figure class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="theGirls.JPG">
-              <img class="picsizeB" src="theGirls.JPG" alt="The Girls" /></a>
+              <img class="picsizeB" src="./imgs/theGirls.JPG" alt="The Girls" /></a>
               <figcaption class="piccaption">
                 <-- Trust & Skepticism -->
               </figcaption>
@@ -358,21 +358,21 @@
           <figure 
           class="figuresB col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="cryingBoy.jpg">
-              <img class="picsizeB" src="cryingBoy.jpg" alt="Crying Boy" /></a>
+              <img class="picsizeB" src="./imgs/cryingBoy.jpg" alt="Crying Boy" /></a>
               <figcaption class="piccaption">
                 Crying boy : Mother's face
               </figcaption>
           </figure>
           <figure class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="tower.JPG">
-              <img class="picsizeC" src="tower.JPG" alt="Petrin Tower" /></a>
+              <img class="picsizeC" src="./imgs/tower.JPG" alt="Petrin Tower" /></a>
               <figcaption class="piccaption">
                 My view of Prague from Petrin Tower at 207 ft. 
               </figcaption>
           </figure>
           <figure class="figuresC col-11 col-sm-4 col-md-4 m-auto m-sm-0">
               <a href="stars.jpg">
-              <img class="picsizeC" src="stars.jpg" alt="Stars" /></a>
+              <img class="picsizeC" src="./imgs/stars.jpg" alt="Stars" /></a>
               <figcaption class="piccaption">
                 Can you find all 7 shooting stars? 
               </figcaption>
