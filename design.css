@@ -94,6 +94,10 @@ button.navbar-toggler {
   height: 100%;
 }
 
+#name {
+  margin-left: 0;
+}
+
 }
 
 

@@ -151,6 +151,11 @@ button.navbar-toggler {
   font-family: 'Quicksand', sans-serif;
 }
 
+@media screen and (min-width: 500px) {
+  #name {
+    margin-left: 0;
+  }
+}
 
 @media screen and (min-width: 1000px) {
 
@@ -207,6 +212,14 @@ nav li:hover::before {
   height: initial;
 }
 
+.homeATags {
+  color: #dd8d55;
+}
+
+.homeATags:hover {
+  text-decoration: none;
+  color: #dbdbdb;
+}
 
 #infoBody {
   flex-direction: row;
