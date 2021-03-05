@@ -1,164 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kellen Rowe | Art of Atlas</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script 
-        async src="https://www.googletagmanager.com/gtag/js?id=UA-166768901-1">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-166768901-1');
+      gtag("config", "UA-166768901-1");
     </script>
 
     <link rel="stylesheet" href="artOfAtlas.css" />
-    
+
     <!-- figure caption & Nav bar font -->
-    <link href="https://fonts.googleapis.com/css?family=Gruppo" 
-        rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Gruppo"
+      rel="stylesheet"
+    />
 
     <!-- name font -->
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
 
     <!--main page font for paragraphs-->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
 
     <!--font for sub headers-->
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- add bootstrap -->
-    <link 
-    rel="stylesheet" 
-    href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
 
     <!-- add jquery / js / popper -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script 
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
-    crossorigin="anonymous"></script>
-
-</head>
-<body>
-    <header>    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a id="name" class="navbar-brand" 
-                    href="https://www.kellen-rowe.com">kellen rowe</a>
-                <button 
-                    class="navbar-toggler" 
-                    type="button" 
-                    data-toggle="collapse" 
-                    data-target="#navbarSupportedContent" 
-                    aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" 
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ml-5">
-                            <a class="nav-link px-0" id="active" 
-                            href="https://www.kellen-rowe.com">Home<span 
-                            class="sr-only">(current)</span></a></li>
-                        <li class="nav-item ml-5">
-                            <a class="nav-link px-0" 
-                            href="/design.html">Design</a></li>
-                        <li class="nav-item ml-5">
-                            <a class="nav-link px-0" 
-                            href="/photography.html">Photography</a></li>
-                        <li class="nav-item ml-5">
-                            <a class="nav-link px-0" 
-                            href="/music.html">Music</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a id="name" class="navbar-brand" href="https://www.kellen-rowe.com"
+            >kellen rowe</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="https://www.kellen-rowe.com"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/projects.html">Projects </a>
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" id="active" href="/design.html"
+                  >Design<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/photography.html"
+                  >Photography</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/music.html">Music</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Art of Atlas -->
 
     <div id="section5">
-        <div class="text-center">
-            <img src="./imgs/aoaSketch.jpg" alt="" id="sketch">
+      <div class="text-center">
+        <img src="./imgs/aoaSketch.jpg" alt="" id="sketch" />
+      </div>
+      <div>
+        <h2 id="subHeaderA" class="text-center mt-5 mb-3">
+          <b>About this Project</b>
+        </h2>
+        <div class="row m-0">
+          <div class="col-10 col-sm-10 col-md-6 m-auto">
+            <p id="p2">
+              Under the psuedonym <i>Art of Atlas</i>, West Coast artist, Wesley
+              Ayers creates from a perspective of loss. Two years ago, after
+              suffering from Lyme disease and losing his girlfriend in a car
+              accident and his grandmother soon afterwards, Ayers chose to
+              dedicate his life to his dream of becoming an artist and a writer.
+              <br />
+              <br />
+              Westley reached out to me with a graphic design inquiry in
+              September of 2019. I was touched by his story, and offered to take
+              on the project pro bono. While it was a small project, I’m proud
+              to share it, because it represents my belief that small acts of
+              kindness are impactful in making the world a better place. <br />
+              <br />
+              <b>Brief:</b> Deliver two logos for use on websites, social media,
+              and merchandise. One for Art of Atlas, and one for Wesley Ayers.
+              Each product must have a light and dark palette option.
+              <br />
+              <br />
+              <b> My Role:</b> Graphic Design
+              <br />
+              <br />
+              <b> Tools Used:</b> Adobe Illustrator
+            </p>
+          </div>
         </div>
-        <div>
-            <h2 id="subHeaderA" 
-            class="text-center mt-5 mb-3"><b>About this Project</b></h2>
-                <div class="row m-0">
-                    <div class="col-10 col-sm-10 col-md-6 m-auto">
-                        <p id="p2">  
-                        Under the psuedonym <i>Art of Atlas</i>, West Coast 
-                        artist, Wesley Ayers creates from a perspective of 
-                        loss. Two years ago, after suffering from Lyme disease 
-                        and losing his girlfriend in a car accident and his 
-                        grandmother soon afterwards, Ayers chose to dedicate 
-                        his life to his dream of becoming an artist and a 
-                        writer.
-                        <br>
-                        <br>
-                        Westley reached out to me with a graphic design inquiry 
-                        in September of 2019. I was touched by his story, and 
-                        offered to take on the project pro bono. While it was a 
-                        small project, I’m proud to share it, because it 
-                        represents my belief that small acts of kindness are 
-                        impactful in making the world a better place. <br> <br>
-                        <b>Brief:</b>  Deliver two logos for use on websites, 
-                        social media, and merchandise. One for Art of Atlas, 
-                        and one for Wesley Ayers. Each product must have a 
-                        light and dark palette option. 
-                        <br>
-                        <br>
-                        <b> My Role:</b> Graphic Design
-                        <br>
-                        <br>
-                        <b> Tools Used:</b> Adobe Illustrator
-                        </p>
-                    </div>
-                </div> 
+      </div>
+
+      <div class="text-center">
+        <img
+          id="colorPalette"
+          class="p col-10 col-md-6"
+          src="./imgs/artOfAtlasColorPalette.png"
+          alt=""
+        />
+      </div>
+
+      <div class="row text-center py-5 mx-auto" id="topRow">
+        <div
+          class="col-11 mx-auto col-sm-5 col-md-4 mr-md-5 ml-md-auto"
+          id="logoDivs"
+        >
+          <img
+            class="col-10 p-0"
+            src="./imgs/waDark.jpg"
+            alt="waLight"
+            id="aoaLogos"
+          />
+        </div>
+
+        <div
+          class="col-11 mx-auto col-sm-5 col-md-4 ml-md-5 mr-md-auto"
+          id="logoDivs"
+        >
+          <img class="col-10 p-0" src="./imgs/aoaDark.jpg" alt="aoaLight" />
+        </div>
+      </div>
+
+      <div class="row text-center py-5 mx-auto" id="bottomRow">
+        <div
+          class="col-11 mx-auto col-sm-5 col-md-4 mr-md-5 ml-md-auto"
+          id="logoDivs"
+        >
+          <img
+            class="col-10 p-0"
+            src="./imgs/aoaLight.jpg"
+            alt="waLight"
+            id="aoaLogos"
+          />
+        </div>
+
+        <div
+          class="col-11 mx-auto col-sm-5 col-md-4 ml-md-5 mr-md-auto"
+          id="logoDivs"
+        >
+          <img class="col-10 p-0" src="./imgs/waLight.jpg" alt="aoaLight" />
+        </div>
+      </div>
+
+      <!-- End of Art of Atlas -->
     </div>
-
-    <div class="text-center">
-        <img id="colorPalette" class="p col-10 col-md-6" 
-        src="./imgs/artOfAtlasColorPalette.png" alt="">
-    </div>
-
-    <div class="row text-center py-5 mx-auto" id="topRow">
-        <div class="col-11 mx-auto col-sm-5 col-md-4 mr-md-5 ml-md-auto" 
-        id="logoDivs">
-            <img class="col-10 p-0" src="./imgs/waDark.jpg" alt="waLight" 
-            id="aoaLogos">
-        </div>
-            
-        <div  class="col-11 mx-auto col-sm-5 col-md-4 ml-md-5 mr-md-auto" 
-        id="logoDivs">
-            <img class="col-10 p-0" src="./imgs/aoaDark.jpg" alt="aoaLight">
-        </div>
-    </div>
-
-    <div class="row text-center py-5 mx-auto" id="bottomRow">
-        <div class="col-11 mx-auto col-sm-5 col-md-4 mr-md-5 ml-md-auto" 
-        id="logoDivs">
-            <img class="col-10 p-0" src="./imgs/aoaLight.jpg" alt="waLight" 
-            id="aoaLogos">
-        </div>
-
-        <div class="col-11 mx-auto col-sm-5 col-md-4 ml-md-5 mr-md-auto" 
-        id="logoDivs">
-            <img class="col-10 p-0" src="./imgs/waLight.jpg" alt="aoaLight">
-        </div>
-    </div>
-
-    <!-- End of Art of Atlas -->
+  </body>
+</html>

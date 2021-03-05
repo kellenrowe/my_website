@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html amp lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kellen-Rowe</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="./imgs/https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-166768901-1");
+    </script>
+  
+    <link rel="stylesheet" href="jobly.css" />
+
+      <!-- font awesome -->
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+
+  </noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    }
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+  </style>
+  <noscript
+    ><style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none;
+      }
+    </style></noscript
+  >
+  </head>
+  <body>
+    <amp-story 
+    standalone 
+    title="Jobly Flask Application" 
+    publisher="Kellen-Rowe" 
+    supports-landscape>
+      <amp-story-page id="page-1">
+          <amp-story-grid-layer 
+          template="fill"
+          style="background-color:rgb(99, 98, 98);" 
+          position="landscape-half-left"
+          auto-advance-after="jobly2">
+
+              <amp-video autoplay loop noaudio 
+                layout="responsive"
+                object-position="50%" 
+                id="jobly2">
+                  <source src="../gifs/jobly/login.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="fill" position="landscape-half-right">
+              <div class="functionality flex-container m-0"   
+                grid-area="lower-third">
+
+                  <h1 class="header-dark p1Head">Overview</h1>
+                  <hr>
+                  <ul>
+                      <li>React </li>
+                      <li>Express / Node.js </li>
+                      <li>PostgreSQL </li>
+                      <li>JWTs and Middleware</li>
+                      <li>TDD on backend</li>
+                      <li>JSON Schema Validation</li>
+                  </ul>
+
+              </div>
+
+          </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-2" auto-advance-after="jobly1">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive"
+                  object-position="-20% -20%" id="jobly1">
+                  <source src="../gifs/jobly/code1.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Backend Routes w/ middleware:</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li">JSON Web Tokens (JWTs)</li>
+                      <li class="small-li">Authorization/ Authentication middleware</li>
+                      <li class="small-li">Job class (OOP) and PostgreSQL
+                          database </li>
+                  </ul>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-3" auto-advance-after="7s">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="jobly2">
+                  <source src="../gifs/jobly/search.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Logged in users can:</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li">Search for companies or jobs </li>
+                      <li class="small-li">View jobs associated with each company</li>
+                      <li class="small-li">Apply for a job</li>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-4" auto-advance-after="jobly3">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="jobly3">
+                  <source src="../gifs/jobly/code2.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Key aspects of backend
+                      include:</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li">Test Driven Devlopment (TDD) - 100%
+                          Coverage</li>
+                      <li class="small-li">User, Company, and Job classes and
+                           queries</li>
+                      <li class="small-li">JSON Schema validation</li>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page-4" auto-advance-after="jobly3">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="jobly3">
+                  <source src="../gifs/jobly/logout.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">My Key Takeaways:</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li"> Benefits and drawbacks of Test Driven Development for RESTful APIs </li>
+                      <li class="small-li">Importance of strategically thinking through component hierarchy for React Applications</li>
+                  </ul>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+    </amp-story>
+  </body>
+</html>

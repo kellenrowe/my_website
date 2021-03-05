@@ -1,0 +1,149 @@
+@keyframes textfade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    margin: 0;
+    background-color: whitesmoke !important;
+    animation: textfade 3s;
+    width: 100vw;
+  }
+
+  .row {
+    width: 100%;
+  }
+  
+  .navbar {
+    background-color: whitesmoke !important;
+  }
+  
+  .container {
+    margin: 10px 0 10px 0;
+  }
+  
+  nav ul {
+    line-height: 28px;
+    padding: 20px 0 0 0;
+  }
+    
+  nav a {
+    font-family: "Gruppo", cursive !important;
+    color: rgb(146, 146, 146) !important;
+    text-decoration: none;
+    font-size: medium;
+  }
+  
+  #name {
+    color: #2e3233 !important;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: "Major Mono Display", monospace !important;
+    border-top: 1px solid #2e3233;
+    border-bottom: 1px solid #2e3233;
+    padding: 10px 0 10px 0;
+    margin: 0 0 0 12px;
+  }
+  
+  #active {
+    color: #272727 !important;
+    font-weight: bolder;
+  }
+  
+  button.navbar-toggler {
+    outline: none !important;
+    border: none !important;
+  }
+
+  .ampRow1 {
+    margin-top: 160px;
+  }
+
+  .ampRow2 {
+    margin-top: 100px;
+    height: fit-content;
+  }
+
+  .ampVidDiv {
+    min-height: 200px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .projectDescription p {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+  
+  .projectDescription h1 {
+    font-family: 'heebo', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  /* #firstRow{
+    margin-top: 100px;
+  } */
+
+  #lastRow {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (min-width: 500px) {
+    #name {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+
+    @keyframes textfade {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    nav a:hover {
+      color: #2e3233 !important;
+    }
+    
+    #name:hover {
+      color: rgb(146, 146, 146) !important;
+      border-top: 1px solid rgb(146, 146, 146);
+      border-bottom: 1px solid rgb(146, 146, 146);
+    }
+    
+    nav ul {
+      padding: 0;
+    }
+    
+    nav li::before {
+      content: "";
+      display: grid;
+      height: 2px;
+      background-color: #2e3233;
+      top: 0%;
+      width: 0%;
+      transition: 200ms;
+    }
+    
+    nav li:hover::before {
+      width: 100%;
+      background-color:#2e3233;;
+      transition: ease-in-out 200ms;
+    }
+
+    .ampVidDiv {
+      min-height: 350px;
+      height: auto;
+      margin-top: 0px;
+    }
+
+  }

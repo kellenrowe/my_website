@@ -109,6 +109,8 @@ nav a:hover {
 
 #name:hover {
   color: rgb(146, 146, 146) !important;
+  border-top: 1px solid rgb(146, 146, 146);
+  border-bottom: 1px solid rgb(146, 146, 146);
 }
 
 nav ul {
@@ -145,4 +147,5 @@ nav li:hover::before {
     width: 90%;
     margin: 20px 0 20px 0;
     padding: 0;
+}
 }

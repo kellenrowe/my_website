@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kellen-Rowe | Projects</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="./imgs/https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-166768901-1");
+    </script>
+
+    <link rel="stylesheet" href="projects.css" />
+
+    <!-- figure caption & Nav bar font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Gruppo"
+      rel="stylesheet"
+    />
+
+    <!--font for sub headers-->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Quicksand&display=swap"
+    rel="stylesheet"
+  />
+
+    <!--main page font for paragraphs-->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+    rel="stylesheet"
+  />
+
+    <!-- name font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+  
+  </noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a id="name" class="navbar-brand" href="https://www.kellen-rowe.com"
+            >kellen rowe</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="https://www.kellen-rowe.com"
+                  >Home
+                </a>
+              </li>
+              <li class="nav-item ml-5">
+                <a id="active" class="nav-link px-0" href="/projects.html"
+                  >Projects <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/design.html">Design </a>
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/photography.html"
+                  >Photography</a
+                >
+              </li>
+              <li class="nav-item ml-5">
+                <a class="nav-link px-0" href="/music.html">Music</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Warbler -->
+    <div id="firstRow" class="row mx-0 ampRow2">
+      <div class="col-10 col-sm-8 col-md-8 col-lg-8 col-xl-6 mx-auto mb-5 mb-xl-0 ampVidDiv">
+        <object type="text/html" data="./ampRefs/warbler.html"
+        style="width:100%; height:100%;">
+      </object>
+    </div>
+    <div class="col-10 col-md-8 col-lg-6 col-xl-4 mx-auto mr-xl-auto ml-xl-0 projectDescription">
+      <h1 class="text-center p-0">Warbler</h1>
+      <hr>
+      <p>Warbler is a Twitter clone built with Python, Flask, PostgreSQL, and   
+        SQLAlchemy, Jinja templating, and jQuery. 
+        
+        This was already a partially functioning app, my primary roles were to find bugs, fix them, then test my solutions. I accomplished this by going through each route and test, one by one, to find discrepencies. After this process was complete, I also added more tests, to the models and views.
+        
+        This was one of the earlier large codebases I'd worked on. As it was written primarily by others, it was a great introduction into the real world task of getting up to speed with your new team.
+        <div class="text-center mt-5">
+          <a class="btn btn-info" target="#" 
+          href="http://warbler.kellen-rowe.com">Go to Warbler!</a>
+        </div>
+      </div>
+    </div>
+    <!-- END Warbler -->
+
+    <!-- Jobly -->
+    <div class="row mx-0 ampRow1">
+      <div class="col-10 col-sm-8 col-md-8 col-lg-8 col-xl-6 mx-auto mb-5 mb-xl-0 ampVidDiv">
+        <object type="text/html" data="./ampRefs/jobly.html"
+                style="width:100%; height:100%;">
+        </object>
+      </div>
+      <div class="col-10 col-md-8 col-lg-6 col-xl-4 mx-auto mr-xl-auto ml-xl-0 projectDescription">
+        <h1 class="text-center p-0">Jobly</h1>
+      <hr>
+      <p>Jobly is a full-stack application that matches job seekers and employers. Jobly was built using a Node / Express backend and a React frontend. The application allows logged in users to browse and search hiring companies and jobs by name or company. It also allows users to view / edit their profile and apply for specific jobs.
+        <br><br>
+      I used test driven development (TDD) on the backend and practiced thinking through a detailed component hierarchy on the frontend.</p>
+      <div class="text-center mt-5">
+        <a class="btn btn-primary" target="#" 
+          href="http://jobly.kellen-rowe.com">Go to Jobly!</a>
+      </div>
+      </div>
+    </div>
+    <!-- END Jobly -->
+
+    <!-- Pixly -->
+    <div class="row mx-0 ampRow1">
+      <div class="col-10 col-sm-8 col-md-8 col-lg-8 col-xl-6 mx-auto mb-5 mb-xl-0 ampVidDiv">
+        <object type="text/html" data="./ampRefs/pixly.html"
+                style="width:100%; height:100%;">
+        </object>
+      </div>
+      <div class="col-10 col-md-8 col-lg-6 col-xl-4 mx-auto mr-xl-auto ml-xl-0 projectDescription">
+        <h1 class="text-center p-0">Pixly</h1>
+      <hr>
+      <p>Pixly is a full-stack application that allows users to upload and edit their photos. I used Python and Flask on the backend, rendering HTML with Jinja for the frontend. Users can also search existing pictures by Photgrapher or Caption.
+        <br><br>
+      This project allowed me to think critically, not about which technologies I wanted to use, but instead, about those which optimized the engineering process.  </p>
+      <div class="text-center mt-5">
+        <a class="btn btn-dark" target="#" 
+          href="http://pixly.kellen-rowe.com">Go to Pixly!</a>
+      </div>
+      </div>
+    </div>
+    <!-- END Pixly -->
+
+    <!-- codenames -->
+    <div id="lastRow" class="row mx-0 ampRow1">
+      <div class="col-10 col-sm-8 col-md-8 col-lg-8 col-xl-6 mx-auto mb-5 mb-xl-0 ampVidDiv">
+        <object type="text/html" data="./ampRefs/covidnames.html"
+                style="width:100%; height:100%;">
+        </object>
+      </div>
+      <div class="col-10 col-md-8 col-lg-6 col-xl-4 mx-auto mr-xl-auto ml-xl-0 projectDescription">
+        <h1 class="text-center p-0">Covidnames</h1>
+      <hr>
+      <p>Covidnames is my take on the popular boardgame Codenames. It's a fulltack app that uses the WebSocket protocol with Socket io. Anyone with an internet connection can join the same board and enjoy a game. Players can generate words automatically or choose three topics which the app will use to fetch related words from an API. 
+        <br><br>
+      This project solidified best practices when working with AJAX. It also taught me one way of working with the WebSocket Protocol.  </p>
+      <div class="text-center mt-5">
+        <a class="btn btn-outline-dark" target="#" 
+          href="http://covidnames.kellen-rowe.com">Go to Covidnames!</a>
+      </div>
+      </div>
+    </div>
+    <!-- END codenames -->
+  
+  </body>
+</html>

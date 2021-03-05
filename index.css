@@ -115,7 +115,7 @@ button.navbar-toggler {
 
 #about2{
   padding: 20px 0 0 0;
-  border-top: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb70;
   width: 100%;
   color: #dbdbdb;
   text-align: left;
@@ -128,11 +128,15 @@ button.navbar-toggler {
   color: #929292;
 }
 
-#links {
+.links {
   text-decoration: none;
   color: #dbdbdb;
   cursor: pointer;
   line-height: 25px;
+}
+
+.homeATags {
+  color: #dd8d55;
 }
 
 .pageEnd {
@@ -149,6 +153,11 @@ button.navbar-toggler {
   text-align: left;
   color: #dbdbdb;
   font-family: 'Quicksand', sans-serif;
+}
+
+.linkIcons {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 500px) {
@@ -174,6 +183,8 @@ nav a:hover {
 
 #name:hover {
   color: rgb(146, 146, 146) !important;
+  border-top: 1px solid rgb(146, 146, 146);
+  border-bottom: 1px solid rgb(146, 146, 146);
 }
 
 nav ul {
@@ -212,10 +223,6 @@ nav li:hover::before {
   height: initial;
 }
 
-.homeATags {
-  color: #dd8d55;
-}
-
 .homeATags:hover {
   text-decoration: none;
   color: #dbdbdb;
@@ -243,4 +250,11 @@ nav li:hover::before {
 
 .pageEnd {
   margin: 0 0 0 12%;
+}
+
+.links:hover {
+  color:#c2c2c2;
+  -webkit-transform:scale(1.03);
+  text-decoration: none;
+}
 }

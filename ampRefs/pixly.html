@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html amp lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kellen-Rowe</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="./imgs/https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-166768901-1");
+    </script>
+
+    <link rel="stylesheet" href="pixly.css" />
+
+      <!-- font awesome -->
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+  
+  </noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    }
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+  </style>
+  <noscript
+    ><style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none;
+      }
+    </style></noscript
+  >
+  </head>
+  <body>
+
+    <amp-story 
+    standalone 
+    title="Pixly Flask Application" 
+    publisher="Kellen-Rowe" 
+    supports-landscape>
+
+      <amp-story-page id="page-1">
+          <amp-story-grid-layer 
+          template="fill"
+          style="background-color:#272727;" 
+          position="landscape-half-left"
+          auto-advance-after="pixly2">
+
+              <amp-video autoplay loop noaudio 
+                layout="responsive"
+                object-position="0%" 
+                id="pixly2">
+                  <source src="../gifs/pixly/home.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="fill" position="landscape-half-right">
+              <div class="functionality flex-container m-0"   
+                grid-area="lower-third">
+
+                  <h1 class="header-dark p1Head">Overview</h1>
+                  <hr>
+                  <ul>
+                      <li>Python  </li>
+                      <li>Flask </li>
+                      <li>HTML w/ Jinja</li>
+                      <li>AWS S3 </li>
+                  </ul>
+
+              </div>
+
+          </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-2" auto-advance-after="pixly1">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive"
+                  object-position="-20% -20%" id="pixly1">
+                  <source src="../gifs/pixly/code.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Backend App.py</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                    <li class="small-li">File Uploads </li>
+                      <li class="small-li">Amazon Web Services S3 Object Storage</li>
+                      <li class="small-li">Cache Management</li>
+                  </ul>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-3" auto-advance-after="7s">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="pixly2">
+                  <source src="../gifs/pixly/edit.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Image Editing</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                    <li class="small-li">Search by Photographer or Caption</li>
+                      <li class="small-li">Choose from edit menu </li>
+                      <li class="small-li">Render edited image after load</li>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+    </amp-story>
+  </body>
+</html>

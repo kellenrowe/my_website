@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html amp lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kellen-Rowe</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="./imgs/https://www.googletagmanager.com/gtag/js?id=UA-166768901-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-166768901-1");
+    </script>
+
+  
+    <link rel="stylesheet" href="warbler.css" />
+
+      <!-- font awesome -->
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <!-- jquery -->
+    <!-- <script src="https://unpkg.com/jquery"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script> -->
+
+  
+  </noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+    }
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+    @keyframes -amp-start {
+      from {
+        visibility: hidden;
+      }
+      to {
+        visibility: visible;
+      }
+    }
+  </style>
+  <noscript
+    ><style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none;
+      }
+    </style></noscript
+  >
+  </head>
+  <body>
+    <amp-story 
+    standalone 
+    title="Warbler Flask Application" 
+    publisher="Kellen-Rowe" 
+    supports-landscape>
+      <amp-story-page id="page-1" >
+          <amp-story-grid-layer 
+          template="fill"
+          style="background-color:rgb(99, 98, 98);" 
+          position="landscape-half-left">
+              <amp-video autoplay loop noaudio 
+                layout="responsive"
+                object-position="50%" 
+                id="warbler2">
+                  <source src="../gifs/warbler/login.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="fill" position="landscape-half-right">
+              <div class="functionality flex-container m-0"   
+                grid-area="lower-third">
+                  <h1 class="p1Head">Overview</h1>
+                  <hr>
+                  <ul>
+                      <li>Python </li>
+                      <li>Flask </li>
+                      <li>HTML w/ Jinja</li>
+                      <li>PostgreSQL </li>
+                  </ul>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page-2" auto-advance-after="warbler1">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive"
+                  object-position="-20% -20%" id="warbler1">
+                  <source src="../gifs/warbler/code.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Key Concepts</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li">Storing user in global namespace</li>
+                      <li class="small-li">Bug fixes in an existing code base</li>
+                      <li class="small-li">OOP & Relational DB Management </li>
+                  </ul>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page-3" auto-advance-after="14s">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="warbler2">
+                  <source src="../gifs/warbler/follow.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">Logged in users can:</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li">Follow other warblers </li>
+                      <li class="small-li">Like warbles</li>
+                      <li class="small-li">Edit their user profile</li>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page-4" auto-advance-after="warbler3">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="warbler3">
+                  <source src="../gifs/warbler/profile.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+          </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page-4" auto-advance-after="warbler4">
+          <amp-story-grid-layer class="screen-video" template="fill">
+              <amp-video autoplay loop width="1000" height="600" noaudio layout="responsive" object-position="0% 0%"
+                  id="warbler4">
+                  <source src="../gifs/warbler/logout.mp4" type="video/mp4">
+              </amp-video>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="thirds">
+              <div grid-area="lower-third" class="bottom-text flex-container" animate-in="fade-in">
+                  <h3 class="m-2" animate-in="fade-in">My Key Takeaways:</h3>
+                  <hr class="m-0">
+                  <ul style="border-top:0px" class="mt-2">
+                      <li class="small-li"> Value added by proper documentation and organization </li>
+                      <li class="small-li">Benefits of an ORM with OOP</li>
+                      <li class="small-li">Robust tests > brittle tests</li>
+                  </ul>
+              </div>
+          </amp-story-grid-layer>
+      </amp-story-page>
+    </amp-story>
+  </body>
+</html>
