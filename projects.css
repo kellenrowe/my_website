@@ -85,6 +85,10 @@
     letter-spacing: 1px;
   }
 
+  .ldMsg small{
+    color: #6e6e6e;
+  }
+
   /* #firstRow{
     margin-top: 100px;
   } */
